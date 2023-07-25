@@ -85,9 +85,9 @@
         <!-- navbar end -->
         <!-- banner start -->
         <section class="mt-12">
-            <div class="hero object-cover bg-gradient-to-t from-[#111] to-[#111111] rounded-lg pt-24 max-w-screen-2xl bg-no-repeat"
+            <div class="hero object-cover object-center bg-gray-800 bg-blend-overlay rounded-lg pt-24 max-w-screen-2xl bg-no-repeat"
                 style="background-image: url(/images/banner.png);">
-                <div class="hero bg-opacity-50 "></div>
+                <div class="hero bg-opacity-75 "></div>
                 <div class="hero-content text-center text-neutral-content">
                     <div class="max-w-2xl">
                         <h1 class="mb-5 text-2xl lg:text-7xl text-white leading-tight font-garamod">We Provide Effective
@@ -232,7 +232,7 @@
                 </div>
             </div>
             <div>
-                <div class="hero object-cover rounded-lg py-32 max-w-screen-2xl bg-no-repeat"
+                <div class="hero object-cover object-center bg-gray-900 bg-opacity-50 bg-blend-overlay rounded-lg py-32 max-w-screen-2xl bg-no-repeat"
                     style="background-image: url(/images/banner.png);">
                     <div class="hero bg-opacity-5  "></div>
                     <div class="hero text-center text-neutral-content">
@@ -242,7 +242,7 @@
                             </div>
                             <h4 class="font-garamod text-2xl text-white">Awlad Hossain</h4>
                             <p class="text-base text-white pb-7">UIX Designer</p>
-                            <p class="text-base text-white">Contrary to popular belief, Lorem Ipsum is not simply random
+                            <p class="text-base font-medium leading-6  text-white">Contrary to popular belief, Lorem Ipsum is not simply random
                                 text. It has roots in a piece of classical Latin literature from 45 BC, making it over
                                 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in
                                 Virginia, looked up one of the more obscure Latin words, consectetur.</p>
@@ -297,6 +297,15 @@
                         <p class="text-base ">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, .</p>
                     </div>
                 </div>
+                <div class="collapse collapse-plus bg-base-200">
+                    <input type="radio" name="my-accordion-3" />
+                    <div class="collapse-title text-2xl font-extrabold font-garamod">
+                        Are application fee waivers available?
+                    </div>
+                    <div class="collapse-content">
+                        <p class="text-base ">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, .</p>
+                    </div>
+                </div>
             </div>
 
             <div class="flex-1">
@@ -316,10 +325,91 @@
             </div>
         </section>
 
-    </main>
-    <footer>
+        <!-- input feild -->
+        <section class="flex flex-col lg:flex-row gap-12 ">
+            <div class="flex-1 grid grid-cols-1  divide-x divide-y md:grid-cols-2 ">
+                <div class="text-center rounded-lg border-solid p-14 bg-[#F3F3F3]">
+                    <div class="flex justify-center">
+                        <img src="./images/address.png" alt="address">
+                    </div>
+                    <h4 class="font-garamod font-extrabold text-2xl text-[#414040]">Address</h4>
+                    <p class="text-base text-[#707070]">A108 Adam Street,</p>
+                    <p class="text-base text-[#707070]">New York, NY 535022</p>
+                </div>
+                <div class="text-center rounded-lg p-14 bg-[#F3F3F3]">
+                    <div class="flex justify-center">
+                        <img src="./images/address.png" alt="address">
+                    </div>
+                    <h4 class="font-garamod font-extrabold text-2xl text-[#414040]">Address</h4>
+                    <p class="text-base text-[#707070]">A108 Adam Street,</p>
+                    <p class="text-base text-[#707070]">New York, NY 535022</p>
+                </div>
+                <div class="text-center rounded-lg p-14 bg-[#F3F3F3]">
+                    <div class="flex justify-center">
+                        <img src="./images/address.png" alt="address">
+                    </div>
+                    <h4 class="font-garamod font-extrabold text-2xl text-[#414040]">Address</h4>
+                    <p class="text-base text-[#707070]">A108 Adam Street,</p>
+                    <p class="text-base text-[#707070]">New York, NY 535022</p>
+                </div>
+                <div class="text-center rounded-lg p-14 bg-[#F3F3F3]">
+                    <div class="flex justify-center">
+                        <img src="./images/address.png" alt="address">
+                    </div>
+                    <h4 class="font-garamod font-extrabold text-2xl text-[#414040]">Address</h4>
+                    <p class="text-base text-[#707070]">A108 Adam Street,</p>
+                    <p class="text-base text-[#707070]">New York, NY 535022</p>
+                </div>
+            </div>
 
-    </footer>
+            <div class=" flex flex-col flex-1 ">
+                <div class="text-base ">
+                    <input type="text" placeholder="Your Name" class="input   bg-[#F3F3F3] rounded-lg input-bordered input-warning w-full max-w-xs" />
+                    <input type="text" placeholder="Your Email" class="input bg-[#F3F3F3] rounded-lg my-7 input-bordered input-warning w-full max-w-xs" />
+                    <input type="text" placeholder="Subject" class="input bg-[#F3F3F3] rounded-lg input-bordered input-warning w-full max-w-xs" />
+                    <textarea class="textarea input-warning textarea-bordered w-full my-7 bg-[#F3F3F3] rounded-lg py-16 max-w-xs"  placeholder="Your Message"></textarea>
+                </div>
+                <div>
+                    <button
+                    class="btn bg-primary-color border-transparent  rounded-md text-xs lg:text-base w-full max-w-xs text-white">Send Message</button>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer class="footer p-10 mt-24 bg-black text-white py-24 text-base-content ">
+        <div>
+            <a href=""><img src="./images/logo.png" class="my-4" alt=""></a>
+          <p class=" lg:leading-8">There are many variations of passages <br>of Lorem Ipsum available, but the majority <br> have suffered alteration in some form, by injected humour.</p>
+        </div> 
+        <div>
+          <span class="footer-title">Company</span> 
+          <a class="link link-hover">About us</a> 
+          <a class="link link-hover">Contact</a> 
+          <a class="link link-hover">Jobs</a> 
+          <a class="link link-hover">Press kit</a>
+        </div> 
+        <div>
+          <span class="footer-title">Legal</span> 
+          <a class="link link-hover">Terms of use</a> 
+          <a class="link link-hover">Privacy policy</a> 
+          <a class="link link-hover">Cookie policy</a>
+        </div> 
+        <div>
+          <p class="footer-title font-garamod font-extrabold text-white ">Subscribe</p> 
+          <p>Subscribe for our latest & Articles. <br> We Won’t Give You Spam Mails</p>
+          <div class="form-control w-80">
+            <label class="label">
+              <span class="label-text text-white">Enter your email address</span>
+            </label> 
+            <div class="flex flex-col lg:flex-row  gap-5">
+              <input type="text" placeholder="Email Address" class="input input-bordered  rounded-md lg:pr-16" /> 
+              <button
+              class="btn bg-primary-color border-transparent  rounded-md text-xs lg:text-base text-white">Send</button>
+            </div>
+          </div>
+        </div>
+      </footer>
 
 </body>
 
